@@ -25,6 +25,6 @@ public class User {
     private String password;
     @Column(name = "email")
     private String email;
-//    @OneToMany(fetch = FetchType.LAZY, mappedBy = "user", cascade = CascadeType.ALL)
-//    private List<Place> place;
+    @OneToMany(fetch = FetchType.LAZY, cascade = CascadeType.ALL)
+    private List<Place> place;
 }
