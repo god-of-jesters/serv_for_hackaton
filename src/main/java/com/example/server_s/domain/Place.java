@@ -23,10 +23,10 @@ public class Place {
     private String adress;
     @Column(name = "information")
     private String informarion;
-    @Column(name = "X")
-    private double corX;
-    @Column(name = "Y")
-    private double corY;
+    @Column(name = "lantute")
+    private double lantute;
+    @Column(name = "longitute")
+    private double longitute;
     @Column(name = "time")
     private long time;
     @Column(name = "userId")
